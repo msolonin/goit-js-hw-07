@@ -1,0 +1,30 @@
+body {
+    border-radius: 8px;
+    padding: 100px 88px;
+    width: 345px;
+    height: 280px;
+
+    background: #fff;
+}
+
+.widget{
+    width: 169px;
+    height: 80px;
+}
+
+.widget button{
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 148px;
+    height: 40px;
+    background: #4e75ff;
+}
+
+.widget p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}

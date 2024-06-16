@@ -1,0 +1,36 @@
+body {
+    border-radius: 8px;
+    padding: 24px;
+    width: 534px;
+    height: 302px;
+    background: #fff;
+}
+
+#controls{
+    border-radius: 8px;
+    padding: 32px;
+    width: 586px;
+    height: 104px;
+    background: #f6f6fe;
+}
+#controls input{
+    border: 1px solid #808080;
+    border-radius: 8px;
+    padding: 8px 72px;
+    width: 150px;
+    height: 40px;
+}
+#controls button{
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 120px;
+    height: 40px;
+}
+
+#boxes{
+    border-radius: 8px;
+    padding: 32px;
+    width: auto;
+    height: auto;
+    background: #f6f6fe;
+}

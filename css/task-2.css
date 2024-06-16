@@ -1,0 +1,19 @@
+
+.gallery {
+    width: 1128px;
+    height: 300px;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+
+.gallery-image {
+    width: 360px;
+    height: 300px;
+    margin-right: 10px;
+}

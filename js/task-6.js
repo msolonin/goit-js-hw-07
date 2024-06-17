@@ -9,16 +9,18 @@ const boxesContainer = document.querySelector('#boxes');
 
 function createBoxes(amount) {
     boxesContainer.innerHTML = '';
+    const fragment = document.createDocumentFragment();
     let size = 30;
     for (let i = 0; i < amount; i++) {
-      const box = document.createElement('div');
-      box.style.width = `${size}px`;
-      box.style.height = `${size}px`;
-      box.style.backgroundColor = getRandomHexColor();
-      box.textContent = i + 1;
-      boxesContainer.appendChild(box);
-      size += 10;
+        const box = document.createElement('div');
+        box.style.width = `${size}px`;
+        box.style.height = `${size}px`;
+        box.style.backgroundColor = getRandomHexColor();
+        box.textContent = i + 1;
+        fragment.appendChild(box);
+        size += 10;
     }
+    boxesContainer.appendChild(fragment);
 }
 
 function destroyBoxes() {
